@@ -1,0 +1,14 @@
+2020-04-06 17:02:07.225  INFO 12100 --- [restartedMain] com.lgz.BlogApplication                  : Starting BlogApplication on LAPTOP-740PFMCM with PID 12100 (D:\Lgz\springboot\blog\target\classes started by lenovo in D:\Lgz\springboot\blog)
+2020-04-06 17:02:07.230  INFO 12100 --- [restartedMain] com.lgz.BlogApplication                  : The following profiles are active: pro
+2020-04-06 17:02:16.635  WARN 12100 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-06 17:02:17.888  INFO 12100 --- [restartedMain] com.lgz.BlogApplication                  : Started BlogApplication in 12.08 seconds (JVM running for 15.879)
+2020-04-06 17:03:04.270  INFO 12100 --- [http-nio-8081-exec-1] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-06 17:03:04.409  WARN 12100 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-04-06 17:03:04.426  WARN 12100 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-04-06 17:03:04.436  INFO 12100 --- [http-nio-8081-exec-1] com.lgz.aspect.LogAspect                 : Result : index
+2020-04-06 17:03:05.744  INFO 12100 --- [http-nio-8081-exec-5] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-06 17:03:05.760  INFO 12100 --- [http-nio-8081-exec-5] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-06 17:06:17.123  INFO 14852 --- [main] com.lgz.BlogApplicationTests             : Starting BlogApplicationTests on LAPTOP-740PFMCM with PID 14852 (started by lenovo in D:\Lgz\springboot\blog)
+2020-04-06 17:06:17.125  INFO 14852 --- [main] com.lgz.BlogApplicationTests             : The following profiles are active: pro
+2020-04-06 17:06:30.384  WARN 14852 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-06 17:06:32.891  INFO 14852 --- [main] com.lgz.BlogApplicationTests             : Started BlogApplicationTests in 17.247 seconds (JVM running for 19.675)
