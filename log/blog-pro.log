@@ -1415,3 +1415,77 @@ Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Could not parse
 2020-04-17 10:35:55.911  INFO 508 --- [http-nio-8081-exec-7] com.lgz.aspect.LogAspect                 : Result : about
 2020-04-17 10:35:56.618  INFO 508 --- [http-nio-8081-exec-9] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
 2020-04-17 10:35:56.634  INFO 508 --- [http-nio-8081-exec-9] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 10:42:38.033  INFO 4252 --- [main] com.lgz.BlogApplicationTests             : Starting BlogApplicationTests on LAPTOP-740PFMCM with PID 4252 (started by lenovo in D:\Lgz\springboot\blog)
+2020-04-17 10:42:38.033  INFO 4252 --- [main] com.lgz.BlogApplicationTests             : The following profiles are active: pro
+2020-04-17 10:42:50.244  WARN 4252 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-17 10:42:53.130  INFO 4252 --- [main] com.lgz.BlogApplicationTests             : Started BlogApplicationTests in 16.309 seconds (JVM running for 18.942)
+2020-04-17 16:41:15.208  INFO 11772 --- [restartedMain] com.lgz.BlogApplication                  : Starting BlogApplication on LAPTOP-740PFMCM with PID 11772 (D:\Lgz\springboot\blog\target\classes started by lenovo in D:\Lgz\springboot\blog)
+2020-04-17 16:41:15.222  INFO 11772 --- [restartedMain] com.lgz.BlogApplication                  : The following profiles are active: pro
+2020-04-17 16:41:24.584  WARN 11772 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-04-17 16:41:25.939  INFO 11772 --- [restartedMain] com.lgz.BlogApplication                  : Started BlogApplication in 12.497 seconds (JVM running for 18.901)
+2020-04-17 16:42:09.480  INFO 11772 --- [http-nio-8081-exec-1] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-17 16:42:09.694  WARN 11772 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-04-17 16:42:09.738  WARN 11772 --- [http-nio-8081-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-04-17 16:42:09.752  INFO 11772 --- [http-nio-8081-exec-1] com.lgz.aspect.LogAspect                 : Result : index
+2020-04-17 16:42:11.510  INFO 11772 --- [http-nio-8081-exec-2] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:42:11.532  INFO 11772 --- [http-nio-8081-exec-2] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 16:42:12.709  INFO 11772 --- [http-nio-8081-exec-3] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/5', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.blog', args=[5, {}]}
+2020-04-17 16:42:12.885  INFO 11772 --- [http-nio-8081-exec-3] com.lgz.aspect.LogAspect                 : Result : blog
+2020-04-17 16:42:13.678  INFO 11772 --- [http-nio-8081-exec-1] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:42:13.692  INFO 11772 --- [http-nio-8081-exec-1] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 16:43:01.634  INFO 11772 --- [http-nio-8081-exec-4] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/5', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.blog', args=[5, {}]}
+2020-04-17 16:43:01.675  INFO 11772 --- [http-nio-8081-exec-4] com.lgz.aspect.LogAspect                 : Result : blog
+2020-04-17 16:43:03.267  INFO 11772 --- [http-nio-8081-exec-7] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:43:03.283  INFO 11772 --- [http-nio-8081-exec-7] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 16:43:05.997  INFO 11772 --- [http-nio-8081-exec-10] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/5', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.blog', args=[5, {}]}
+2020-04-17 16:43:06.017  INFO 11772 --- [http-nio-8081-exec-10] com.lgz.aspect.LogAspect                 : Result : blog
+2020-04-17 16:43:06.945  INFO 11772 --- [http-nio-8081-exec-3] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:43:06.962  INFO 11772 --- [http-nio-8081-exec-3] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 16:43:26.130  INFO 11772 --- [http-nio-8081-exec-8] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-17 16:43:26.161  INFO 11772 --- [http-nio-8081-exec-8] com.lgz.aspect.LogAspect                 : Result : index
+2020-04-17 16:43:27.072  INFO 11772 --- [http-nio-8081-exec-2] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:43:27.085  INFO 11772 --- [http-nio-8081-exec-2] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 16:46:27.710  INFO 11772 --- [http-nio-8081-exec-4] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/1', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.blog', args=[1, {}]}
+2020-04-17 16:46:27.737  INFO 11772 --- [http-nio-8081-exec-4] com.lgz.aspect.LogAspect                 : Result : blog
+2020-04-17 16:46:28.868  INFO 11772 --- [http-nio-8081-exec-8] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:46:28.887  INFO 11772 --- [http-nio-8081-exec-8] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 16:46:32.949  INFO 11772 --- [http-nio-8081-exec-9] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/4', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.blog', args=[4, {}]}
+2020-04-17 16:46:32.969  INFO 11772 --- [http-nio-8081-exec-9] com.lgz.aspect.LogAspect                 : Result : blog
+2020-04-17 16:46:33.602  INFO 11772 --- [http-nio-8081-exec-5] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:46:33.614  INFO 11772 --- [http-nio-8081-exec-5] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 16:46:37.515  INFO 11772 --- [http-nio-8081-exec-1] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/1', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.blog', args=[1, {}]}
+2020-04-17 16:46:37.539  INFO 11772 --- [http-nio-8081-exec-1] com.lgz.aspect.LogAspect                 : Result : blog
+2020-04-17 16:46:38.209  INFO 11772 --- [http-nio-8081-exec-7] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:46:38.220  INFO 11772 --- [http-nio-8081-exec-7] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 16:46:41.547  INFO 11772 --- [http-nio-8081-exec-6] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/2', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.blog', args=[2, {}]}
+2020-04-17 16:46:41.570  INFO 11772 --- [http-nio-8081-exec-6] com.lgz.aspect.LogAspect                 : Result : blog
+2020-04-17 16:46:42.184  INFO 11772 --- [http-nio-8081-exec-1] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:46:42.197  INFO 11772 --- [http-nio-8081-exec-1] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 16:51:26.889  INFO 11772 --- [http-nio-8081-exec-5] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-17 16:51:26.918  INFO 11772 --- [http-nio-8081-exec-5] com.lgz.aspect.LogAspect                 : Result : index
+2020-04-17 16:51:28.117  INFO 11772 --- [http-nio-8081-exec-4] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:51:28.129  INFO 11772 --- [http-nio-8081-exec-4] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 16:51:30.778  INFO 11772 --- [http-nio-8081-exec-9] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/5', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.blog', args=[5, {}]}
+2020-04-17 16:51:30.803  INFO 11772 --- [http-nio-8081-exec-9] com.lgz.aspect.LogAspect                 : Result : blog
+2020-04-17 16:51:31.418  INFO 11772 --- [http-nio-8081-exec-5] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:51:31.433  INFO 11772 --- [http-nio-8081-exec-5] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 16:51:38.229  INFO 11772 --- [http-nio-8081-exec-10] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/1', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.blog', args=[1, {}]}
+2020-04-17 16:51:38.251  INFO 11772 --- [http-nio-8081-exec-10] com.lgz.aspect.LogAspect                 : Result : blog
+2020-04-17 16:51:39.342  INFO 11772 --- [http-nio-8081-exec-7] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:51:39.355  INFO 11772 --- [http-nio-8081-exec-7] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 16:51:47.230  INFO 11772 --- [http-nio-8081-exec-4] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/4', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.blog', args=[4, {}]}
+2020-04-17 16:51:47.256  INFO 11772 --- [http-nio-8081-exec-4] com.lgz.aspect.LogAspect                 : Result : blog
+2020-04-17 16:51:48.089  INFO 11772 --- [http-nio-8081-exec-10] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:51:48.105  INFO 11772 --- [http-nio-8081-exec-10] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 16:51:52.652  INFO 11772 --- [http-nio-8081-exec-1] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/2', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.blog', args=[2, {}]}
+2020-04-17 16:51:52.665  INFO 11772 --- [http-nio-8081-exec-1] com.lgz.aspect.LogAspect                 : Result : blog
+2020-04-17 16:51:53.272  INFO 11772 --- [http-nio-8081-exec-5] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:51:53.282  INFO 11772 --- [http-nio-8081-exec-5] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 16:52:29.525  INFO 11772 --- [http-nio-8081-exec-8] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/2', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.blog', args=[2, {}]}
+2020-04-17 16:52:29.542  INFO 11772 --- [http-nio-8081-exec-8] com.lgz.aspect.LogAspect                 : Result : blog
+2020-04-17 16:52:30.182  INFO 11772 --- [http-nio-8081-exec-2] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:52:30.191  INFO 11772 --- [http-nio-8081-exec-2] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
+2020-04-17 16:55:11.285  INFO 11772 --- [http-nio-8081-exec-6] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/blog/1', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.blog', args=[1, {}]}
+2020-04-17 16:55:11.306  INFO 11772 --- [http-nio-8081-exec-6] com.lgz.aspect.LogAspect                 : Result : blog
+2020-04-17 16:55:11.936  INFO 11772 --- [http-nio-8081-exec-5] com.lgz.aspect.LogAspect                 : Request : {url='http://localhost:8081/footer/newblog', ip='0:0:0:0:0:0:0:1', classMethod='com.lgz.web.IndexController.newblogs', args=[{}]}
+2020-04-17 16:55:11.945  INFO 11772 --- [http-nio-8081-exec-5] com.lgz.aspect.LogAspect                 : Result : _fragments :: newblogList
